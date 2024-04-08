@@ -56,6 +56,12 @@ class ScrollCalc{
 
     return list;
   }
+
+  calc() {
+    // 進捗割合のみを返す
+    let list = this.calcCore();
+    return list.progress;
+  }
 }
 
 export default new ScrollCalc();
