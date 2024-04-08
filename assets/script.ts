@@ -12,3 +12,7 @@ if (textList) {
 }
 
 console.log(["ピクセルを数値に変換するテスト", ScrollCalc.pixelNumber("334px")]);
+
+window.addEventListener("scroll", function () {
+  console.log(ScrollCalc.calcCore());
+});
