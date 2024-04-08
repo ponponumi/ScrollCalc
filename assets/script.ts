@@ -12,6 +12,7 @@ if (textList) {
 }
 
 console.log(["ピクセルを数値に変換するテスト", ScrollCalc.pixelNumber("334px")]);
+console.log(["HTMLの高さを確認するテスト", ScrollCalc.htmlHeight()]);
 
 window.addEventListener("scroll", function () {
   console.log(ScrollCalc.calcCore());
