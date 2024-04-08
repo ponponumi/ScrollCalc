@@ -13,7 +13,6 @@ class ScrollCalc{
 
     if (htmlElem !== null) {
       let htmlHeight: string = getComputedStyle(htmlElem).getPropertyValue("height");
-      console.log(htmlHeight);
       result = this.pixelNumber(htmlHeight);
     }
 
