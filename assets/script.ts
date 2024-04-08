@@ -10,3 +10,5 @@ if (textList) {
     textList.appendChild(text);
   }
 }
+
+console.log(["ピクセルを数値に変換するテスト", ScrollCalc.pixelNumber("334px")]);
