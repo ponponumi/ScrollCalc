@@ -78,6 +78,14 @@ class ScrollCalc{
       }
     }
   }
+
+  progressEventScroll(progressElem) {
+    // スクロールイベントを追加する
+    let self = this;
+    window.addEventListener('scroll', function () {
+      self.progressSet(progressElem);
+    });
+  }
 }
 
 export default new ScrollCalc();
