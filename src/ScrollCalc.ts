@@ -62,6 +62,22 @@ class ScrollCalc{
     let list = this.calcCore();
     return list.progress;
   }
+
+  progressSet(progressElem) {
+    // progressタグに反映する
+    let elemCheck = progressElem instanceof HTMLElement;
+
+    if (elemCheck) {
+      // HTMLであれば
+      let maxCheck = 'max' in progressElem;
+      let valueCheck = 'value' in progressElem;
+
+      if (maxCheck && valueCheck) {
+        let max = progressElem.max;
+        progressElem.value = this.calc() * max;
+      }
+    }
+  }
 }
 
 export default new ScrollCalc();
