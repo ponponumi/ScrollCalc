@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c695aad7787f93ba8c23ed0085aae0a0",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "ponponumi/vite-loader",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ponponumi/vite-loader.git",
+                "reference": "9c4dedc848be0b68cc0bd5a204237c56fdb8e124"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ponponumi/vite-loader/zipball/9c4dedc848be0b68cc0bd5a204237c56fdb8e124",
+                "reference": "9c4dedc848be0b68cc0bd5a204237c56fdb8e124",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ponponumi\\ViteLoader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ponponumi",
+                    "email": "ponponumi@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/ponponumi/vite-loader/issues",
+                "source": "https://github.com/ponponumi/vite-loader/tree/1.0.1"
+            },
+            "time": "2024-01-31T12:25:36+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
