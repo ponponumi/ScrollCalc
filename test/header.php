@@ -16,3 +16,4 @@ $vite = new ViteLoader(__DIR__ . "/build/.vite/manifest.json", "/build/");
   <title>Document</title>
 </head>
 <body>
+  <progress id="progress" value="0" max="1"></progress>
