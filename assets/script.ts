@@ -18,3 +18,5 @@ window.addEventListener("scroll", function () {
   console.log(ScrollCalc.calcCore());
   console.log(ScrollCalc.calc());
 });
+
+ScrollCalc.progressEventScroll(document.getElementById("progress"));
