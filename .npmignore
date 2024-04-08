@@ -1,0 +1,6 @@
+vite.config.js
+test/
+assets/
+composer.lock
+composer.json
+docker-compose.yml
