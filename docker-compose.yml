@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  php:
+    image: php:8.3-apache
+    volumes:
+      - ./test:/var/www/html
+      - ./vendor:/var/www/vendor
+    ports:
+      - 40000:80
