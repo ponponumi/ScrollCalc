@@ -2,6 +2,11 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
+
+use Ponponumi\ViteLoader\ViteLoader;
+
+$vite = new ViteLoader(__DIR__ . "/build/.vite/manifest.json", "/build/");
+
 ?>
 <!DOCTYPE html>
 <html lang="ja">
