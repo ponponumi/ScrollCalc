@@ -14,6 +14,13 @@ $vite = new ViteLoader(__DIR__ . "/build/.vite/manifest.json", "/build/");
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <?php
+
+  $vite->htmlList([
+    'assets/style.scss',
+  ]);
+
+  ?>
 </head>
 <body>
   <progress id="progress" value="0" max="1"></progress>
