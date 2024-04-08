@@ -4,3 +4,6 @@ assets/
 composer.lock
 composer.json
 docker-compose.yml
+vendor/
+node_modules/
+test/build/
