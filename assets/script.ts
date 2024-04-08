@@ -17,6 +17,7 @@ console.log(["HTMLの高さを確認するテスト", ScrollCalc.htmlHeight()]);
 window.addEventListener("scroll", function () {
   console.log(ScrollCalc.calcCore());
   console.log(ScrollCalc.calc());
+  ScrollCalc.progressSet(document.getElementById("progress"));
 });
 
-ScrollCalc.progressEventScroll(document.getElementById("progress"));
+// ScrollCalc.progressEventScroll(document.getElementById("progress"));
